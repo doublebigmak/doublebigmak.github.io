@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Photography</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/fontawesome.css">
     <link rel="stylesheet" type="text/css" href="./css/photos.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./css/fontawesome.css">
+
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:400,800" rel="stylesheet">
 
 </head>
@@ -15,7 +16,18 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <ul>
+            <!--Hamburger button (resized menu)-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                
+            </button>
+            <a href="/" class="navbar-brand"><i class="fas fa-home"></i> Home</a>
+        </div>
+        <div id="navbar" class = "navbar-collapse collapse">
+            <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/cv">CV</a></li>
@@ -44,5 +56,10 @@
 </main>
 
 <p id="copyright">Michael Mak 2019</p>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<script src="js\bootstrap.js"></script>
 </body>
 </html>
