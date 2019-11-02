@@ -2,12 +2,12 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+/*nav ul, footer ul {
     font-family:'Gill Sans', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-}
+}*/
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -34,10 +34,10 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
+/*ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-}
+}*/
 
 ul.posts li {
     list-style: none;
