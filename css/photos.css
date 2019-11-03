@@ -25,7 +25,9 @@ img:hover {
     border-bottom: 0px;
     padding-top: 20px;
     padding-bottom: 0px;
-    text-align: center;
+    position:fixed;
+    left:50%;
+    bottom: 20px;
 
 }
 
