@@ -28,31 +28,15 @@
 
     </head>
     <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow">
-            <div class = 'container'>
-                <a class="navbar-brand" href="#">MAK</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="navbar-link" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navbar-link" href="/">Personal</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navbar-link" href="/">Professional</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navbar-link" href="/gallery.html">Gallery<span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-                    
-        </nav>
+    <div id="nav-placeholder">
+
+    </div>
+        
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
 
     <div class="container">
         <h1 id='title' >Photography</h1>
