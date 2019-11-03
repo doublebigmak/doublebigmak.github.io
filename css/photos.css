@@ -10,14 +10,13 @@ img:hover {
     opacity:1.0;
 }
 
-p{
+#title{
     font-family: 'Arima Madurai', cursive;
-    margin-left: 1.66%;
     font-size: 40px;
     font-weight: 400;
     border-bottom: 2px solid lightgray;
-    width: 30%;
     padding-bottom: 20px;
+    padding-top: 1%;
 }
 
 #copyright{
