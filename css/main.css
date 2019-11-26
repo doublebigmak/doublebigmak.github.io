@@ -70,3 +70,7 @@ iframe{
     width:100%;
     height:1000px;
 }
+
+#linkedin_button:hover{
+    color: #0e76a8 
+}
