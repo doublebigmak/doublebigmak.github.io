@@ -75,6 +75,14 @@ iframe{
     color: #0e76a8 
 }
 
+#github_button:hover{
+    color: #6e5494 
+}
+
+#email_button:hover{
+    color: #D44638 
+}
+
 .navbar{
     overflow:visible
 }
