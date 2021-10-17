@@ -83,6 +83,10 @@ iframe{
     color: #D44638 
 }
 
+#twitter_button:hover{
+    color: #2e7adf 
+}
+
 .navbar{
     overflow:visible
 }
