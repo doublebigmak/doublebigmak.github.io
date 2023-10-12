@@ -90,3 +90,8 @@ iframe{
 .navbar{
     overflow:visible
 }
+
+#intro-text{
+    margin: 25%;
+    filter: blur(5px);
+}
