@@ -52,13 +52,15 @@ ul.posts li {
 }
 
 .masthead {
-    height: 75vh;
+    height: 50vh;
     min-height: 500px;
     background-image: url("https://michael-mak.ca/images/plane-21-2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #999;
+
+    z-index: 1;
   }
 
 #header{
@@ -92,6 +94,16 @@ iframe{
 }
 
 #intro-text{
-    margin: 25%;
-    filter: blur(5px);
+    margin: 1%;
+    margin-right: 20%;
+    margin-left: 20%;
+    position: relative;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px #333333;
+    z-index: 2;
+}
+
+#intro-text p{
+    position: relative;
+    z-index: 2;
 }
