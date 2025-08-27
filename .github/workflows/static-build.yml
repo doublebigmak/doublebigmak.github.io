@@ -9,7 +9,7 @@ permissions:
 
 env:
   # PROD API base for the SPA build (adjust to your FastAPI URL or reverse-proxy path)
-  REACT_APP_API_URL: http://ec2-3-135-62-56.us-east-2.compute.amazonaws.com
+  REACT_APP_API_URL: https://l2n8tswpob.execute-api.us-east-2.amazonaws.com
 
     
 jobs:
