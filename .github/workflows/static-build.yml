@@ -1,0 +1,35 @@
+name: Build static site
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Build React
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build
+
+      - name: Prepare publish folder
+        run: |
+          rm -rf site/guessthestock
+          mkdir -p site/guessthestock
+          cp -r frontend/build/* site/guessthestock/
+
+      - name: Push to static branch
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git checkout -B static
+          git add site
+          git commit -m "Update static site"
+          git push -f origin static
