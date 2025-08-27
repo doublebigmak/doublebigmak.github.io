@@ -14,7 +14,7 @@ function App() {
 
   // If same day, use stored; else reset to default
 
-  const [currentIndex, setCurrentIndex] = useState(()=> isSameDay ? getStored('currentIndex', 0): 0);
+  //const [currentIndex, setCurrentIndex] = useState(()=> isSameDay ? getStored('currentIndex', 0): 0);
   const [score, setScore] = useState(() => getStored('score', 0));
   const [streak, setStreak] = useState(() => getStored('streak', 0));
   const [lives, setLives] = useState(() => isSameDay ? getStored('lives', 3) : 3);
@@ -42,10 +42,10 @@ function App() {
     setStored('lives', lives);
     setStored('hintUsed', hintUsed);
     setStored('lastPlayedDate', todayDateString);
-    setStored('currentIndex', currentIndex);
+    //setStored('currentIndex', currentIndex);
     setStored('solvedGames',solvedGames)
 
-  }, [score, streak, lives, hintUsed,todayDateString,currentIndex,solvedGames]);
+  }, [score, streak, lives, hintUsed,todayDateString,solvedGames]);
 
   
 
