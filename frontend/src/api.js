@@ -1,5 +1,5 @@
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://ec2-3-135-62-56.us-east-2.compute.amazonaws.com';
+const API_URL = process.env.REACT_APP_API_URL || 'https://l2n8tswpob.execute-api.us-east-2.amazonaws.com/';
 
 export async function fetchTodayGames() {
   const response = await fetch(`${API_URL}/game/today`);
