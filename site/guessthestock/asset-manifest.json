@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/guessthestock/static/css/main.4fcd9e47.css",
+    "main.js": "/guessthestock/static/js/main.aeeae6fd.js",
+    "static/js/453.b4bc136c.chunk.js": "/guessthestock/static/js/453.b4bc136c.chunk.js",
+    "index.html": "/guessthestock/index.html",
+    "main.4fcd9e47.css.map": "/guessthestock/static/css/main.4fcd9e47.css.map",
+    "main.aeeae6fd.js.map": "/guessthestock/static/js/main.aeeae6fd.js.map",
+    "453.b4bc136c.chunk.js.map": "/guessthestock/static/js/453.b4bc136c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fcd9e47.css",
+    "static/js/main.aeeae6fd.js"
+  ]
+}
